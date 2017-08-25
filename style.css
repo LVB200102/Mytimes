@@ -6,6 +6,7 @@ padding-left: 30px;
   color:MediumAquamarine;
   display: flex;
   flex-grow: 1;
+  font-size: 14px;
 
   }
 .container1 {
@@ -18,10 +19,69 @@ padding-left: 30px;
   position:fixed;
   width: 100%;
   height: 80px;
+
 }
-.container1  span{
+.container1  nav span{
 display:inline-block;
 padding: 20px 10px;
-color: black;
 align-content: flex-end;
+}
+.container1 nav{
+  padding-right: 40px;
+}
+.container1 a:link{
+  color:black;
+}
+.container1 a:visited{
+  color:black;
+}
+.column{
+  display:flex;
+}
+ .firststory{
+border-color: black;
+border-style: solid;
+}
+.secondstory{
+  border:black;
+  border-style: solid;
+}
+ .thirdstory{
+  border-color: black;
+  border-style: solid;
+}
+ .story1{
+  border-color: black;
+  border-style: solid;
+}
+.story2{
+  border-color: black;
+  border-style: solid;
+}
+.picture{
+  border-color: black;
+  border-style: solid;
+}
+ .laststory{
+  border-color: black;
+  border-style: solid;
+}
+.large.medium.small{
+  display:flex;
+}
+.column .large{
+  width: 630px;
+}
+.column .medium{
+  width:300px;
+}
+.column .small{
+  width:240px;
+}
+.column{
+  position: relative;
+  top:100px;
+}
+.column .large .firststory .monvalley{
+  border-top: solid 1px black;
 }
