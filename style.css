@@ -1,0 +1,27 @@
+.container1 img{
+margin-right: 12px;
+padding-left: 30px;
+}
+.container1 .head{
+  color:MediumAquamarine;
+  display: flex;
+  flex-grow: 1;
+
+  }
+.container1 {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: solid 1px black;
+  align-items: center;
+  position:fixed;
+  width: 100%;
+  height: 80px;
+}
+.container1  span{
+display:inline-block;
+padding: 20px 10px;
+color: black;
+align-content: flex-end;
+}
