@@ -20,11 +20,12 @@ h2{
   font-weight: bold;
   border-bottom: solid 1px black;
   align-items: center;
-  position:fixed;
+  position: fixed;
   width: 100%;
   height: 80px;
   background-color: white;
   z-index: 25;
+  top:0px;
 }
 .container1  nav span{
 display:inline-block;
@@ -43,34 +44,9 @@ align-content: flex-end;
 .column{
   display:flex;
 }
- .firststory{
-border-color: black;
-border-style: solid;
+.large{
+  margin-left: 0px;
 }
-.secondstory{
-  border:black;
-  border-style: solid;
-}
- .thirdstory{
-  border-color: black;
-  border-style: solid;
-}
- .story1{
-  border-color: black;
-  border-style: solid;
-}
-.story2{
-  border-color: black;
-  border-style: solid;
-}
-.picture{
-  border-color: black;
-  border-style: solid;
-}
- .laststory{
-  border-color: black;
-  border-style: solid;
-
 }
 .large.medium.small{
   display:flex;
@@ -100,6 +76,9 @@ border-style: solid;
   width: 630px;
   height: 300px;
   margin-top: 0px;
+}
+.puget2{
+  margin:0px;
 }
 
   }
@@ -131,6 +110,7 @@ width: 300px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   height:300px;
   width:300px;
+  display: inline-flex;
 }
 #image-content .cat{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
