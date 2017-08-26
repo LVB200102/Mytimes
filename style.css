@@ -43,10 +43,14 @@ align-content: flex-end;
 }
 .column{
   display:flex;
+  margin-bottom: 148px;
 }
 .large{
-  margin-left: 0px;
+flex-direction: row;
 }
+.small{
+  display: flex;
+  flex-direction: column;
 }
 .large.medium.small{
   display:flex;
@@ -70,6 +74,7 @@ align-content: flex-end;
   position: relative;
   top:100px;
   overflow: scroll;
+  font-family: Georgia;
 }
 .large .firststory #main-image{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
@@ -139,4 +144,38 @@ width: 300px;
 }
 .newyork, .puget2{
   margin-top: 0px;
+}
+.thirdstory{
+  display:inline-flex;
+  justify-content: flex-end;
+}
+#viral, #yt, #idea, #online, #material, #secret{
+  padding:11px 20px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
+.newsb h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+  margin-top: 16px;
+}
+footer{
+  display: inline-flex;
+  background-color: mediumaquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height:325px;
+  width:100%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+footer .nav{
+
 }
