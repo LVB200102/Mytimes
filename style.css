@@ -99,6 +99,9 @@ flex-direction: row;
   color: white;
   display: flex;
   justify-content: center;
+  position:relative;
+  text-align: center;
+  flex-direction: column;
 
 }
   #main-image .tuna1 span{
@@ -176,6 +179,38 @@ footer{
   align-content: center;
   justify-content: center;
 }
-footer .nav{
+footer .foot{
+float:right;
+display:inline-flex;
+}
+footer .title{
+  padding-right: 20px;
+  border-right: 1px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+footer nav,{
+  padding-left: 25px;
+ font-family: Verdana;
+ font-size: 12px;
+ color:black;
+}
+.foot a:link, .foot  a:visited{
+  color: black
+}
+ #u, #t, #s{
+  padding: 20px 10px;
+}
+footer .copyright p{
+  display: block;
 
+}
+footer .info{
+  display:block;
+}
+.tuna1 span, {
+  display:flex;
+  justify-content: center;
 }
